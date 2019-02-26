@@ -4,7 +4,8 @@
 
 ### API 
 
-```
+```javascript
+
 const https = require('https')
 const { key, cert } = require('self-signed-cert');
 
@@ -13,12 +14,12 @@ let serverOptions = {
     cert
 }
 
-let server = https.createServer(serverOptions,(req,res) => {
+const server = https.createServer(serverOptions,(req,res) => {
     // Your awesome secure server logic 
 });
 
 server.listen(8080,() => {
     console.log('Your awesome server is listening on localhost:8080')
-})
+});
 
 ```
