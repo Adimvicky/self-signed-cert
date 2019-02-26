@@ -1,0 +1,28 @@
+{
+  "name": "self-signed-cert",
+  "version": "1.0.0",
+  "description": "Quickly get self signed ssl certificates for development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adimvicky/self-signed-cert.git"
+  },
+  "keywords": [
+    "ssl",
+    "certificates",
+    "https",
+    "self-signed",
+    "development",
+    "secure",
+    "server"
+  ],
+  "author": "Adim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adimvicky/self-signed-cert/issues"
+  },
+  "homepage": "https://github.com/adimvicky/self-signed-cert#readme"
+}
